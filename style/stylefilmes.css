@@ -1,0 +1,176 @@
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+  }
+  
+  * {
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /*elementos base*/
+  body {
+      background: var(--preta);
+      font-family: 'Arial', Times, serif;
+      color: white;
+  }
+
+  header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ header .logo {
+   margin-top: 20px;
+   margin-bottom: 15px;
+ }
+ 
+ header nav a {
+   text-decoration: none;
+   color: #aaa;
+   margin-right: 10px;
+ }
+ 
+ header nav a:hover {
+   color: #fff;
+ }
+ 
+ /*filme principal*/
+ .filme-principal {
+   font-size: 16px;
+   background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/milagres-do-paraiso.jpg');
+ 
+   height: 400px;
+   background-size: cover;
+ 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+ }
+ 
+ .filme-principal .descricao {
+   margin-top: 10px;
+   margin-bottom: 40px;
+ }
+ 
+ .filme-principal .titulo {
+   margin-top: 15%;
+   font-size: 40px;
+   font-family: 'Trebuchet MS', Arial, sans-serif;
+ }
+
+ .texto {
+    position: absolute;
+    background-color: rgba(0,0,0,0,.50);
+    color:#fff;
+    margin-left: 25px;
+    top: 100px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+ }
+
+
+ selecao {
+    position: absolute;
+    background-color: rgba(0,0,0,0,.50);
+    color:#fff;
+    margin-left: 150px;
+    top: 100px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+ }
+
+ select {
+     border-radius: 5px;
+ }
+
+ .selecao select {
+     padding: 0.2em;
+     border: 1px solid #e50914;
+     box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+     display: block;
+ }
+
+ .selecao select option {
+     padding-right: 1em;
+ }
+
+ .selecao select:focus {
+     background: #E0E0F8;
+ }
+ .selecao {
+     position: absolute;
+     margin-left: 150px;
+     top: 100px; 
+     padding: 0.2em;
+     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+     display: block;
+ }
+
+ 
+ .botao {
+   background-color: rgba(0,0,0,.50);
+   border: none;
+   color: white;
+ 
+   padding: 15px 30px;
+   margin-right: 15px;
+   font-size: 12px;
+ 
+   cursor: pointer;
+   transition: .3s ease all;
+ }
+ 
+ .botao:hover {
+   background-color: white;
+   color: black;
+ }
+ 
+ 
+ .botao a {
+   text-decoration: none;
+   color: inherit;
+ }
+ 
+ .botao i {
+   margin-right: 8px;
+ }
+ 
+ 
+ .container {
+   margin-left: 30px;
+ }
+ 
+ .filme-principal .container {
+   width: 70%;
+ }
+ 
+ .box-filme {
+   height: 100%;
+   width: 100%;
+   display: block;
+ }
+ 
+ .carrosel-filmes {
+   margin-top: 10px;
+ }
+ 
+ .minha-lista {
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: 10px;
+   font-family: 'Arial', Times, serif;
+   color: white;
+ }
+
+ .footer {
+     text-align: center;
+ }
+ 
+ 
